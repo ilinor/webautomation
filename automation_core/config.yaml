@@ -1,0 +1,8 @@
+driver: {selected_driver: Firefox}
+webdriver_wait: 15
+email_config: {imap_SSL: true, imap_port: imap_port, imap_server: your_mail_Server,
+  reporting_email: email_to_receive_report,
+  reporting_email_password: report_mail_pass, smtp_port: 587, smtp_server: smtp_server}
+logger: {log_filename: /webautomation.log, logging_level: DEBUG}
+url: {test_app_url: 'https://google.com/'}
+browser_settings: {downloads_path: '%UserProfile%\Downloads\webauto'}
