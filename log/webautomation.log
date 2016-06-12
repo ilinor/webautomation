@@ -157,3 +157,80 @@ INFO:root:Calling tear down procedure for this test
 DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:54945/hub/session/e5ddac65-6bf1-4f93-bd59-597ccebef267 {"sessionId": "e5ddac65-6bf1-4f93-bd59-597ccebef267"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
 DEBUG:root:Closing driver
+INFO:root:Starting Test 
+INFO:root:Starting Test 
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53252/hub/session {"desiredCapabilities": {"browserName": "firefox", "version": "", "marionette": false, "javascriptEnabled": true, "platform": "ANY"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Using Firefox as webdriver
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53252/hub/session/bb611079-9238-4563-8638-6acba17b83ca/timeouts/implicit_wait {"ms": 15000.0, "sessionId": "bb611079-9238-4563-8638-6acba17b83ca"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53252/hub/session/bb611079-9238-4563-8638-6acba17b83ca/url {"url": "https://magento.com/", "sessionId": "bb611079-9238-4563-8638-6acba17b83ca"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53252/hub/session/bb611079-9238-4563-8638-6acba17b83ca/window/current/maximize {"sessionId": "bb611079-9238-4563-8638-6acba17b83ca", "windowHandle": "current"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:53252/hub/session/bb611079-9238-4563-8638-6acba17b83ca/title {"sessionId": "bb611079-9238-4563-8638-6acba17b83ca"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:driver navigated to: eCommerce Software & eCommerce Platform Solutions | Magento
+INFO:root:Calling tear down procedure for this test
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:53252/hub/session/bb611079-9238-4563-8638-6acba17b83ca/window {"sessionId": "bb611079-9238-4563-8638-6acba17b83ca"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:53252/hub/session/bb611079-9238-4563-8638-6acba17b83ca {"sessionId": "bb611079-9238-4563-8638-6acba17b83ca"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Closing driver
+INFO:root:Starting Test 
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51272/hub/session {"desiredCapabilities": {"version": "", "browserName": "firefox", "javascriptEnabled": true, "marionette": false, "platform": "ANY"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Using Firefox as webdriver
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51272/hub/session/95346209-fe72-4d56-a3e9-f14e11145669/timeouts/implicit_wait {"ms": 15000.0, "sessionId": "95346209-fe72-4d56-a3e9-f14e11145669"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51272/hub/session/95346209-fe72-4d56-a3e9-f14e11145669/url {"url": "https://magento.com/", "sessionId": "95346209-fe72-4d56-a3e9-f14e11145669"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51272/hub/session/95346209-fe72-4d56-a3e9-f14e11145669/window/current/maximize {"windowHandle": "current", "sessionId": "95346209-fe72-4d56-a3e9-f14e11145669"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:51272/hub/session/95346209-fe72-4d56-a3e9-f14e11145669/title {"sessionId": "95346209-fe72-4d56-a3e9-f14e11145669"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:driver navigated to: eCommerce Software & eCommerce Platform Solutions | Magento
+INFO:root:Calling tear down procedure for this test
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:51272/hub/session/95346209-fe72-4d56-a3e9-f14e11145669/window {"sessionId": "95346209-fe72-4d56-a3e9-f14e11145669"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:51272/hub/session/95346209-fe72-4d56-a3e9-f14e11145669 {"sessionId": "95346209-fe72-4d56-a3e9-f14e11145669"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Closing driver
+INFO:root:Starting Test 
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:57042/hub/session {"desiredCapabilities": {"platform": "ANY", "marionette": false, "javascriptEnabled": true, "version": "", "browserName": "firefox"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Using Firefox as webdriver
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:57042/hub/session/c8467884-29f5-4e06-9b6e-1e150f28a569/timeouts/implicit_wait {"ms": 15000.0, "sessionId": "c8467884-29f5-4e06-9b6e-1e150f28a569"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:57042/hub/session/c8467884-29f5-4e06-9b6e-1e150f28a569/url {"url": "https://magento.com/", "sessionId": "c8467884-29f5-4e06-9b6e-1e150f28a569"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:57042/hub/session/c8467884-29f5-4e06-9b6e-1e150f28a569/window/current/maximize {"windowHandle": "current", "sessionId": "c8467884-29f5-4e06-9b6e-1e150f28a569"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:57042/hub/session/c8467884-29f5-4e06-9b6e-1e150f28a569/title {"sessionId": "c8467884-29f5-4e06-9b6e-1e150f28a569"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:driver navigated to: eCommerce Software & eCommerce Platform Solutions | Magento
+INFO:root:Calling tear down procedure for this test
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:57042/hub/session/c8467884-29f5-4e06-9b6e-1e150f28a569/window {"sessionId": "c8467884-29f5-4e06-9b6e-1e150f28a569"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:57042/hub/session/c8467884-29f5-4e06-9b6e-1e150f28a569 {"sessionId": "c8467884-29f5-4e06-9b6e-1e150f28a569"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Closing driver
+INFO:root:Starting Test 
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:63776/hub/session {"desiredCapabilities": {"browserName": "firefox", "javascriptEnabled": true, "version": "", "marionette": false, "platform": "ANY"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Using Firefox as webdriver
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:63776/hub/session/5ee5715e-3865-4890-928f-80a80741c215/timeouts/implicit_wait {"ms": 15000.0, "sessionId": "5ee5715e-3865-4890-928f-80a80741c215"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:63776/hub/session/5ee5715e-3865-4890-928f-80a80741c215/url {"url": "https://magento.com/", "sessionId": "5ee5715e-3865-4890-928f-80a80741c215"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:63776/hub/session/5ee5715e-3865-4890-928f-80a80741c215/window/current/maximize {"windowHandle": "current", "sessionId": "5ee5715e-3865-4890-928f-80a80741c215"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:63776/hub/session/5ee5715e-3865-4890-928f-80a80741c215/title {"sessionId": "5ee5715e-3865-4890-928f-80a80741c215"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:driver navigated to: eCommerce Software & eCommerce Platform Solutions | Magento
+INFO:root:Calling tear down procedure for this test
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:63776/hub/session/5ee5715e-3865-4890-928f-80a80741c215/window {"sessionId": "5ee5715e-3865-4890-928f-80a80741c215"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:63776/hub/session/5ee5715e-3865-4890-928f-80a80741c215 {"sessionId": "5ee5715e-3865-4890-928f-80a80741c215"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Closing driver

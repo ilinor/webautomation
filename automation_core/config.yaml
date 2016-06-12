@@ -4,5 +4,5 @@ email_config: {imap_SSL: true, imap_port: imap_port, imap_server: your_mail_Serv
   reporting_email: email_to_receive_report,
   reporting_email_password: report_mail_pass, smtp_port: 587, smtp_server: smtp_server}
 logger: {log_filename: /webautomation.log, logging_level: DEBUG}
-url: {test_app_url: 'https://google.com/'}
+url: {test_app_url: 'https://magento.com/'}
 browser_settings: {downloads_path: '%UserProfile%\Downloads\webauto'}
