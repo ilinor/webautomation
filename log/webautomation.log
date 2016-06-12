@@ -234,3 +234,242 @@ DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
 DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:63776/hub/session/5ee5715e-3865-4890-928f-80a80741c215 {"sessionId": "5ee5715e-3865-4890-928f-80a80741c215"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
 DEBUG:root:Closing driver
+INFO:root:Starting Test 
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54457/hub/session {"desiredCapabilities": {"platform": "ANY", "marionette": false, "browserName": "firefox", "javascriptEnabled": true, "version": ""}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Using Firefox as webdriver
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54457/hub/session/0c9c8249-1645-4ff2-b3a5-27bc76e815b5/timeouts/implicit_wait {"ms": 15000.0, "sessionId": "0c9c8249-1645-4ff2-b3a5-27bc76e815b5"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54457/hub/session/0c9c8249-1645-4ff2-b3a5-27bc76e815b5/url {"url": "https://magento.com/", "sessionId": "0c9c8249-1645-4ff2-b3a5-27bc76e815b5"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54457/hub/session/0c9c8249-1645-4ff2-b3a5-27bc76e815b5/window/current/maximize {"windowHandle": "current", "sessionId": "0c9c8249-1645-4ff2-b3a5-27bc76e815b5"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:54457/hub/session/0c9c8249-1645-4ff2-b3a5-27bc76e815b5/title {"sessionId": "0c9c8249-1645-4ff2-b3a5-27bc76e815b5"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:driver navigated to: eCommerce Software & eCommerce Platform Solutions | Magento
+INFO:root:Calling tear down procedure for this test
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:54457/hub/session/0c9c8249-1645-4ff2-b3a5-27bc76e815b5/window {"sessionId": "0c9c8249-1645-4ff2-b3a5-27bc76e815b5"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:54457/hub/session/0c9c8249-1645-4ff2-b3a5-27bc76e815b5 {"sessionId": "0c9c8249-1645-4ff2-b3a5-27bc76e815b5"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Closing driver
+INFO:root:Starting Test 
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54513/hub/session {"desiredCapabilities": {"platform": "ANY", "javascriptEnabled": true, "marionette": false, "browserName": "firefox", "version": ""}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Using Firefox as webdriver
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54513/hub/session/af434c50-d39b-4ea5-89d2-04fe7a591ea7/timeouts/implicit_wait {"sessionId": "af434c50-d39b-4ea5-89d2-04fe7a591ea7", "ms": 15000.0}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54513/hub/session/af434c50-d39b-4ea5-89d2-04fe7a591ea7/url {"sessionId": "af434c50-d39b-4ea5-89d2-04fe7a591ea7", "url": "https://magento.com/"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54513/hub/session/af434c50-d39b-4ea5-89d2-04fe7a591ea7/window/current/maximize {"sessionId": "af434c50-d39b-4ea5-89d2-04fe7a591ea7", "windowHandle": "current"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:54513/hub/session/af434c50-d39b-4ea5-89d2-04fe7a591ea7/title {"sessionId": "af434c50-d39b-4ea5-89d2-04fe7a591ea7"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:driver navigated to: eCommerce Software & eCommerce Platform Solutions | Magento
+INFO:root:Calling tear down procedure for this test
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:54513/hub/session/af434c50-d39b-4ea5-89d2-04fe7a591ea7/window {"sessionId": "af434c50-d39b-4ea5-89d2-04fe7a591ea7"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:54513/hub/session/af434c50-d39b-4ea5-89d2-04fe7a591ea7 {"sessionId": "af434c50-d39b-4ea5-89d2-04fe7a591ea7"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Closing driver
+INFO:root:Starting Test 
+INFO:root:Starting Test 
+INFO:root:Starting Test 
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54791/hub/session {"desiredCapabilities": {"args": [], "binary": "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe", "firefox_profile": "UEsDBBQAAAAIAOKgzEhDxmXlZgQAAP0PAAAHAAAAdXNlci5qc51XTW8bNxC9F+h/KHRqgYqxkwYoEuSg2g5QwKiLKEYuBgguOaulxSVZfmilf58hV2vL1n6lNy3FIWfezLx5jB4ctQ7KXxcaQmPcltRMsw0sTVkqqWHpAwvRL37/pWTKw28ff/4pPtsIFpgDa1yQekOsUZIfSFpcx6KW3kujbzQrFIiBAzzw6GQ4EO4tgbx11lUVMBWq9psos9mkRW60NwrGbwzGqK0MJICCGoI7EOtMbUM2eDvkXsOcpgrYDu+heXXIz5cmoAO4ZNMA2w5YFM40+EWEabQyTBwz4IivTPOtAr3GyFPUA/YNFMLJHX4z72MNNOrgoseIKKYggkM7XBg2a3GnmgX8pLBDp32/zbOrNWmkRo+JiHWXOdFvNIJIDpEazYfQfGQ75rmTNozfAfsAOpWbf6qG0f1dILgk7vS3HIq/vCASoTP3X27RasEKE8OHQjG9XYyGtJPQpIhquQcxGVLCrmZ7yiusO6BtdNRFTYOsk9G7iwFnPajSR5trPjqVfDxzLJVKtKTCoy0WEaKseLoG9xMmhAyIEVMT4TFrSbTYcXCCYl8sJ7DP2j+DL/7NiyvO4diTfefsrdQYqlKkqSR2svSBOPgvSjdo0oEYWOFz2u70lTJ+KEtnTVkaJcDd4k09PPGUIVZC/p3Cq5nCe34AQhaDuZY+7V5zYyE14eXrYjiHXJsgy8O9z40+FosDJlJIEIAjtp+l82GFqeCZdEe65HVVTZTPE3bSW8UOIG4uL9b/oJe5J/4Ypq+c9BP64uCmmMhDrhofDCLtIPNfiY1FuWO+mgBEQ4PlkCKan6RCGb7NBTduMsB6o7Oj86sCZcGtrPXoIiKz8siUbAdfU3lsM/rWYpuw1M1vDCYz4JzG9NYfecWch/Dp/uvn5Z9Dibm5v10Rgwc7KaZSj74owivg22soWVThr/afiRDOiKi7jtSYK51LSG40Zu21k92APuqRbhiKtjH6vT0f6jOTU0oF+IsYJ3Fo0JaREgcPF0DG4golA6JfSJVO0XJTBXWYzzx3FvT/qZvJ4dJqGZ/uorURTE0A8bITuqky0tudSqxCsMRW0leHZfrbovZYKtCbkJru7fv3g4ztMe0oKbFXpyh7TH1NIpGuMRqvqKEuwK3z55CO7WBAxbslyLyaIiCtwOlh+xNRYmzIRZG8+VtftQJ0irGY49WRvOfWJ3a35IG+LtM+2xcZQqGxRFmskfCTn0uklSVu3eX+PZst523k4DHPivGQjm+FuaNUyHT74vrDwwOSf5p6dWayh4dE4Aopf772jzYdOS75k+Jqt1MsQProKezTpJFtQcwYfMehNyTMMp++I+xZtPScORJEyggOR8w2TuQvcYgaBOxShjxBJjXu+NoZ17md2PwBlfncA4n0XKsWxx9GPqm3QLHDx6bbDADGyap7krI0GDGTSADFgYp2LA28PUb08ATTJeiOQ4dmOETMTJzqbYpGsLMdYj0Rz4nMTk0wiwVfvDWmZvCpGu1x5TtQSwECFAAUAAAACADioMxIQ8Zl5WYEAAD9DwAABwAAAAAAAAAAAAAAtoEAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAACLBAAAAAA="}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Using Firefox as webdriver
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54791/hub/session/2161a7e9-4c72-4603-ada8-cc14e21bb058/timeouts/implicit_wait {"ms": 15000.0, "sessionId": "2161a7e9-4c72-4603-ada8-cc14e21bb058"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54791/hub/session/2161a7e9-4c72-4603-ada8-cc14e21bb058/url {"url": "https://magento.com/", "sessionId": "2161a7e9-4c72-4603-ada8-cc14e21bb058"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:54791/hub/session/2161a7e9-4c72-4603-ada8-cc14e21bb058/window/current/maximize {"windowHandle": "current", "sessionId": "2161a7e9-4c72-4603-ada8-cc14e21bb058"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:54791/hub/session/2161a7e9-4c72-4603-ada8-cc14e21bb058/title {"sessionId": "2161a7e9-4c72-4603-ada8-cc14e21bb058"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:driver navigated to: eCommerce Software & eCommerce Platform Solutions | Magento
+INFO:root:Calling tear down procedure for this test
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:54791/hub/session/2161a7e9-4c72-4603-ada8-cc14e21bb058/window {"sessionId": "2161a7e9-4c72-4603-ada8-cc14e21bb058"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:54791/hub/session/2161a7e9-4c72-4603-ada8-cc14e21bb058 {"sessionId": "2161a7e9-4c72-4603-ada8-cc14e21bb058"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Closing driver
+INFO:root:Starting Test 
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55076/hub/session {"desiredCapabilities": {"args": [], "binary": "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe", "firefox_profile": "UEsDBBQAAAAIAA2jzEiozopKZgQAAP0PAAAHAAAAdXNlci5qc51XwW7jNhC9F+g/FD61QM0mTRcodtGDm2SBAkFTrDfYSwCCIkcWY4pkScqK/36HlJXYiiVq92bJGs7Mmzczj40HR62D8ucFPAfQXhrtSaEM3yrpAwHNCgVi8etPJVMefvnw4w/NWRNlNhupN0cGwTXD7wtnWnwigRWetMzpe31vQY+c7oE3ToZ9+pKCDuDQA22BbYmvTEuN5jBmG5gLjSWVqcGyDaCV4vibNk4RJoQMGDVTaL1ghWnC+0IxvV0MTtEQWuO2pArBEltJX+2X8W/LvF8q0JtQ4Qm/v3s3sHu2UmMESpG2kgESkg7+b6QbhfI0Wd8UtQwUT4mvx5J8YjvmuZM2TMPeQiGc3OEzxt1EEDR+5QMIKvEFuPNmwRi1lYFgAlBDcPsMG/rqmrJUUo8F3X/lWQnpd2RNzRTmDRkHI4SYxOjF3ZAQBvFwUgCpfTAp2oXcaIMHjZyAr8S9/iK1wOfLCyIRRPPw6S7Dod4crbQyTJDSKAHuDjkRuTOZogK2e80wS/qXXEGVvrHWuECQ7zHAYVSCIR4Qv4jwV8BUqLpntHY7yWfXopQK8BcxTuIAoNYoyfdodDUWXAXYF7wCvr2BkjUq/N39M6vop4hkcHDAREQeAnAk+0fpfFhhxlzBecb7yACNdjXUBbh1evQZL5iPBbey1hMNSKqVx/HEdvDZ3Ei/TeywFkFhceT8ZjCSsPQBY6s/8Io5D+Gvh88fl3+OE6cmbWIdEU1tp1v9TVnQk+SBDqvzjfM2A8ELt2umsbdcYuqXCvQ6dh0ekrOX3iq2B3F7ebH+12CFYoH+yHkTMpJmcfP+8RFHHGuCqRPIj48OPBLLj0GK42lLDG4eqqHtsD3Ti0fbLdH12tQWzy+kiiBpuamCGsPyyLax2Gy5duoju324W5ErwjgHG8aKfNq8XU1JfLmOa8NHt/+ll6vXY845nRgCjY0I384bAdz3rPx2R71u4AiVUTDtsd9Ih73csw3pc3A+ufy6EKnGGu6AYqvq4GfrlGtlfG7eIJnQoh+5M3ZCZxDX0XyhdaCTxi4p9w/jc1PALsLlCa454w7wzpNnw12ZyeYouNiDN1011hwbLOJ7eTHF9X4NZyIC5nh1yH0kYZyyPTgxjO8Qhpk8rcMBEHxkBa2NYCpTtDi4O5ZTlIL0yVN4jv0ou51yrrHRombPlFcuhtRpO+oaTYOsY95XQyxflWbcXSzgUvQ5qfkyBREqh4fPHE2vQzMW3HXqeTgzjySp6TJNu+Affd0RMFPmY004LyoPad6hhkOBFMc+4lYiepQ75quZovBA8iG4bwVwR4EU1DDzk7sCFnGJLadRd8TgligQllFXpW590xCni3cnoY17t5bPILKab4aQK6Pu+dSMXbN60s1g21tAHDwlbXW+rj0m3aBeHi4GqH6QqGOyasZym14SvRcWFRl2BuJX7KnotOb5OI9GR76lD9uGplYQTdJIcVmOmBxdvtI2Prp8cXBjG2iCEt9zOTpPo69QSwECFAAUAAAACAANo8xIqM6KSmYEAAD9DwAABwAAAAAAAAAAAAAAtoEAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAACLBAAAAAA=", "marionette": false}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Using Firefox as webdriver
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55076/hub/session/271ee8f2-b9cb-4d69-8765-92efd6931f14/timeouts/implicit_wait {"ms": 15000.0, "sessionId": "271ee8f2-b9cb-4d69-8765-92efd6931f14"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55076/hub/session/271ee8f2-b9cb-4d69-8765-92efd6931f14/url {"sessionId": "271ee8f2-b9cb-4d69-8765-92efd6931f14", "url": "https://magento.com/"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55076/hub/session/271ee8f2-b9cb-4d69-8765-92efd6931f14/window/current/maximize {"windowHandle": "current", "sessionId": "271ee8f2-b9cb-4d69-8765-92efd6931f14"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:55076/hub/session/271ee8f2-b9cb-4d69-8765-92efd6931f14/title {"sessionId": "271ee8f2-b9cb-4d69-8765-92efd6931f14"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:driver navigated to: eCommerce Software & eCommerce Platform Solutions | Magento
+INFO:root:Calling tear down procedure for this test
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:55076/hub/session/271ee8f2-b9cb-4d69-8765-92efd6931f14/window {"sessionId": "271ee8f2-b9cb-4d69-8765-92efd6931f14"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:55076/hub/session/271ee8f2-b9cb-4d69-8765-92efd6931f14 {"sessionId": "271ee8f2-b9cb-4d69-8765-92efd6931f14"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Closing driver
+INFO:root:Starting Test 
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55133/hub/session {"desiredCapabilities": {"binary": "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe", "args": [], "firefox_profile": "UEsDBBQAAAAIACGjzEjrpSiBWQQAAP0PAAAHAAAAdXNlci5qc5VXwW7jNhC9F+g/FD61QM0mu12g2EUPbpIFCgRNsd5gLwEIihpZjCmSJSkr/vudoeQ4tS3Rvlny0Jx5896bcRvAc+eh+nlWeNvhEyttZ7QVJausLsHfqxBnv/707pdPP/7QnohWwWmxhfLu+mr5j41KAkb/fhAdQLZexS2TwTEwotAUVQkd4CASXiKYoKwJrHWliDCElyPxuzyiKALrhDcP5sGByUQHCOmOaD0wD6FtgFfeNlx6EeqRw6VtMNZZH7nQmj8HDi8SXKQfwiPRt2ckd6NtGKv9FSUK5RsFnTIr3qgXKFmobcetkWNnX5zCcjAv1tUqgsauYbL/tcpnobt7vF+w90xIKiZFT5Tyyo5GGLEiKDGxbzWYZRQ+Yr6Zy7Qya2axQ5w67Y3QJ8hFSDfihcsaewI8SK9c5L41PKqGEHh/NQmdBrEh6NLbMcSitXqtIkOwoIHot4jXM8gsAviqfDDflEEowvUVUyZ6+/jlHk/NRGHb+LHQwqxnhzUJBCixBzNjNQgd6/6Zabta0UuJRLIa7iYJHwjn1rEakXHYAd6BloRS63UmhT37dRVal+4eTh2GdlCUXm3wuacFb7HKNiA4XIKPGb4f5Wjxl7wqgTUoOUMdmamVQfEd3vtG/jtU9vo/h5al8vTrtx+fnrAG0UbbCFLo0xPJXGPmYzmLCtJnurMRGomU855jrzJogNX2EUNyMsBoj4TO3GCrCgUDc+FcYChu9IBiy0uoBJZyGpG9EQSEWEQUQMg5QQkbUkNgmJP1Aw3PA95Ah+7G8uSb4D8GbXBuZLDYU7KP41gcPnLYgBkj5LPYiN490HOSUSe/+tvc9DVeRuNMhdiky2ZWDdqBX1BvDVbhF2GNNNzAV3urwjrd5pxWMhH4N4vWFOchehDNJ1kLHyD++fj18/yPw0TeVD3Zw1fTrJQG/MSsVyg57ixeuiWbPUcrZ2uk0Fau02CaPrIzZgOxs369GzS4aQx7w4lSjs3c4egYxtnY7hJAeFkPPRuTRp62lfIhfmnHdg4aZkPuPA2+EqHG4UR2laW6CGk32buvwhfJXSZ4mwb6znKnQ5FMJWELMU2+z1TKAmuVY0BPDdrskvKGDLIGub7BFiG5C6XpF41a1VFvJ2CkneCcZWBiRDJRlor0JC4zrF4TjF4u26JRaX/8N71c7BenC7e63ImdLlH0SkZ+KM9TZwfRDOvZfDdAEJLYhrMyRDcFn92eJs9kidCLM9BizBtbCp2xhF1VdYyOWDDHGWWQsUSlOXronLSYZHF9SIbjxRNHVpe2t1ObZ77p0+vZsRGd7Y+0rNz2RrGUmGk4Vc6bIUPxuf85gxKG6TWGTT/EKSiT7UjXOxDrsRO05xn0mQaaAvwyPY4RcZfPwNpMFDlC30hWto07c9alzAN1M3LclKY4/ooiDmrdO9Ztv3r91X9zOUpZZfyP6a5Wod7O6WuHk2Cuwawi/T199+HD+XOqdTRqTtD2O1BLAQIUABQAAAAIACGjzEjrpSiBWQQAAP0PAAAHAAAAAAAAAAAAAAC2gQAAAAB1c2VyLmpzUEsFBgAAAAABAAEANQAAAH4EAAAAAA==", "platform": "ANY", "version": "", "marionette": false, "browserName": "firefox"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Using Firefox as webdriver
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55133/hub/session/0c885ffa-6b6c-4e6f-97ec-a1a397623c1a/timeouts/implicit_wait {"ms": 15000.0, "sessionId": "0c885ffa-6b6c-4e6f-97ec-a1a397623c1a"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55133/hub/session/0c885ffa-6b6c-4e6f-97ec-a1a397623c1a/url {"url": "https://magento.com/", "sessionId": "0c885ffa-6b6c-4e6f-97ec-a1a397623c1a"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55133/hub/session/0c885ffa-6b6c-4e6f-97ec-a1a397623c1a/window/current/maximize {"windowHandle": "current", "sessionId": "0c885ffa-6b6c-4e6f-97ec-a1a397623c1a"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:55133/hub/session/0c885ffa-6b6c-4e6f-97ec-a1a397623c1a/title {"sessionId": "0c885ffa-6b6c-4e6f-97ec-a1a397623c1a"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:driver navigated to: eCommerce Software & eCommerce Platform Solutions | Magento
+INFO:root:Calling tear down procedure for this test
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:55133/hub/session/0c885ffa-6b6c-4e6f-97ec-a1a397623c1a/window {"sessionId": "0c885ffa-6b6c-4e6f-97ec-a1a397623c1a"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:55133/hub/session/0c885ffa-6b6c-4e6f-97ec-a1a397623c1a {"sessionId": "0c885ffa-6b6c-4e6f-97ec-a1a397623c1a"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Closing driver
+INFO:root:Starting Test 
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55199/hub/session {"desiredCapabilities": {"binary": "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe", "firefox_profile": "UEsDBBQAAAAIAFejzEif0kthXgQAAP0PAAAHAAAAdXNlci5qc61XTW/jNhC9F+h/KHxqgZpNNl2g2EUPaZIFCgTdYrPBXgIQFDWyGFMkyw8r/vedkaz6I5aoAL1ZMkccvnnz5jEF8Nx5qH5cwEsEE5Q1gcka5PrGNk5EVSit4pYZtaqj3i5+/qESOsBPH7//Lu1jbVVpZWApnAtMaG1bXmx5CZVIOmJM9Ok05FlsRJBeucjAiEJDeX5d4W2LT+zu8f6aXTEhJbiYWxxEBd1vZVasEboVHg62OXeEUkRc5KyPFOOsVnLL6OVDKhoVCJi7yQ+0UJRebfBZhJAa4MlghgFz5RiewJ9POYBMnhDGHA0HE8FjArwFsWahRiCtkTCWs21YqQJlxa0Dw8vUBWsrxrI0EFvr1wiKEStYDoULUcQURmKCWhlrmIcGmgL8Q/c4tth55E0MLIqCN7YUOoP7UDI6S6tMaVtWpsbNI0UAXYXkqGoseY2LF4v5+GYywlflZ/OtyylcXjCF9bSPX+5pF1HYFD8UWpj16YZ7HvRH4Aa7aAMcNrh5mD5PDdqBv6YuMrjeXwckgdjAV3urwrrb2DlkJn7Rml+sjBCxdB5E81HWwgeIvz9+/bT87TQnjGLJIZv/hy74u3t5ve/Dc985EBNtVyv62GRBo7V6rSKLoJFl0W+Rbc8gs41uoEWiDbWfqMqeMd0hQrSoCB66Rq2Qslx6EeocR1VwWmyhvLu8ePjLRtV15q+TjNsoaIlwjXqZg1ahrVxrFWKmUCO07l5DXjiOylyD0LHun5EmpB7TUodq4WNyrLYNOJQR7CYtLUletg4Hsm9d7I5Myf5pbvCn1TCXHm9B56gEWWz2gtQaggKrTtK9uP3w9IS9LVK0Tdd/T0/EH409fUaWG/HCZe0JlP643CfDo2po26uL3J69PPsu2W81mAdCHM+QJxDld9vPhAeJQ4EU53Jsv6M5mVEG2FAVAgPvrZd9taabepg1dYyOAFlilMGmpjyXqHNLXLrp5uJ4gqdMsxjgVQmswRY2BOaCxpGHV0UYpzhti637Jik8+sAgaTsUMs0ycFGGYaqNrDxQaapihp8DNAQLLj1F8IASs5R/UlBGYl6cQiVFv8fIIqCDwIZAUf0nKZ+d9xpT8tgTM+1BwNGoe2N629vKP/p/3l69ofyV8iF+SSYHSKU04C8E3CsZufUKi8/72ZjJGmdT6AD9bD6jP5u70+kWV1ON5WoV6u2S/nboPJcazCrSJHv3/v3oEBRe1jteTHjLHjCOBebPgcMLjXzVW7+JmYyGcs06O0oc9EbQTHiXR+hG2zCWzWs2Gxy/1fZxnAHHhA7kXyJHvk4R+jhGg9hke+D1aOodcMfo01MPi3cFHFR+5+EzXvdECmcanv9GSmV1Cf4ercWZxPad3NYKj0IGJNPIB/edzgse3Hck+JzT7a5zg5iP3IwmXAYTZamIi2Ku8UOTXBIcEDtb+Yma/xrVQeZw7y0mJZAbGLuxP2PeT/FstkHZ9xmm2F+dJhptd9M7/Oa/UEsBAhQAFAAAAAgAV6PMSJ/SS2FeBAAA/Q8AAAcAAAAAAAAAAAAAALaBAAAAAHVzZXIuanNQSwUGAAAAAAEAAQA1AAAAgwQAAAAA", "args": [], "marionette": false, "version": ""}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Using Firefox as webdriver
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55199/hub/session/af5e98c2-2658-4afe-b35d-c8a7367a14db/timeouts/implicit_wait {"sessionId": "af5e98c2-2658-4afe-b35d-c8a7367a14db", "ms": 15000.0}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55199/hub/session/af5e98c2-2658-4afe-b35d-c8a7367a14db/url {"url": "https://magento.com/", "sessionId": "af5e98c2-2658-4afe-b35d-c8a7367a14db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55199/hub/session/af5e98c2-2658-4afe-b35d-c8a7367a14db/window/current/maximize {"sessionId": "af5e98c2-2658-4afe-b35d-c8a7367a14db", "windowHandle": "current"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:55199/hub/session/af5e98c2-2658-4afe-b35d-c8a7367a14db/title {"sessionId": "af5e98c2-2658-4afe-b35d-c8a7367a14db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:driver navigated to: eCommerce Software & eCommerce Platform Solutions | Magento
+INFO:root:Calling tear down procedure for this test
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:55199/hub/session/af5e98c2-2658-4afe-b35d-c8a7367a14db/window {"sessionId": "af5e98c2-2658-4afe-b35d-c8a7367a14db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:55199/hub/session/af5e98c2-2658-4afe-b35d-c8a7367a14db {"sessionId": "af5e98c2-2658-4afe-b35d-c8a7367a14db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Closing driver
+INFO:root:Starting Test 
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55258/hub/session {"desiredCapabilities": {"args": [], "javascriptEnabled": true, "marionette": false, "platform": "ANY", "firefox_profile": "UEsDBBQAAAAIAJqjzEiRSQsNXgQAAP0PAAAHAAAAdXNlci5qc51X227jNhB9L9B/KPzUAjWb7HaBYhd9SJMsUCBoivUG+xKAoMiRxZgiWZKy4r/fGcnyVRenb5ZEzuXMmTPjKkLgPkD+8ywLrsYnplzJam2Vq5mqSs/AisyAmv36UwoV/PLpxx+q/SUlkgjgXUjaLlkBwqSifWZ4aK0lHNzPhYlnBtBbKV65LIIrgUcZtE88VJYnXQJeen/Vc0PpSEa582C5qgI658aJISfwmsBG7Wxkxi2XFOpoVh0URtsVa3yQhWCFwfPvTg4L71nlEYipVCNIjDRtWK4N4C/mgsZYuHdGyw2lOhy2qJK7a5NeSIwo4vHrU2S6sJPIIqtFsI/21rgIA/HsC15bAo/lzigIDzqmnjQJ9rayXBjDXyJiIsEnCq8fxaiX1lm8VEKZQVg0j3EKHBk7yk2EHZF5qfLMiyUdPQWj+1wgregIr8FIolgVqIozkbkqfcyMsKvZG64yoZSmpMWUlRexFi2dx8n26rVFj8awutAJDMKPmP1X6TDNJCoyX2uoqQFK/fp/brBYuJo7K4cAV7BOzpnIIAQXJNbQGRjPyeU59g7MsTeQu8agg2zDFeSiMmmALUcRxiordeKIDL0eiqyGTAW9xmcRY0UFsmg5JlBc4wsI/a7219okuBUJHzmswaYBMnesK8B4CDeUl8Xz4SauWBRr+ErtuWoo4T32syCO/OZkgjSPKYAoP8lChAjpz6evn+d/nLKl08ELBPBAcEgWpjUvM06uGl6NC1SX4/3Tww1zmFzQCsbhiGDyWPlG8LeNdZoZcWelE0NqoxKksGEepd6nJoxTlekOW0i1C6tSWOy/0On9VDmFJEU6YIGEMFVQgzgGhPtCbHZiqTSxa3b38fkZA6BClE3Nn58DRGR5PMWhR50fcbRcOiyQRFomfjozxmJF1ikKGRIgD9VnHWK6wUkth5DcV1UEWWxJNuDkQN5cOwUaIfnb3rYCMe7BQo04kLhO7QfTC0ZOeX2phpDcVU5Hb8QG1P311eIfhzBQjL+PyhDqATTLxagMHbTati8tms83T7FRoGk9NiDWey+TgnzUp+9Zy/ohKR5NaFr7h+HvNqntQLgfLeO5CAR4aVjZH/U5pOM0aSUlUnPx0ilhLmznCLHxkhyCQY2LQyRHW1wGEYuLQGlbkdHLBU2txuC/zcubfWX67GxFjhUpeRL/OUJpERQKaI5TZk4Mbyg0uOptB+1ElvhKPdpvzVIfr6+YRoF0T18eJjaY8zUY27b9a9Aj3TtIRQ7N7+M1e7oLdtysQazezsfKky6P0/BYftj0KnjAQ1mAXN0izVDmM20obKuXRTJDMrxf7GgTFgn7LU5tdqfL7W4F7cYxK5GrTcFntE+jJg2Qqh2d824TQ4Opmly+e9To0nnYjWpSlG8F2AVlgGamEsWFyrTY3rXr4V/tl4uF5C3zo7dXL6PMEa1LYRCqi//wndN7UniPtMEXOhabOX32uOnODdhlInV69+HDhQTq4/l3UEsBAhQAFAAAAAgAmqPMSJFJCw1eBAAA/Q8AAAcAAAAAAAAAAAAAALaBAAAAAHVzZXIuanNQSwUGAAAAAAEAAQA1AAAAgwQAAAAA", "browserName": "firefox", "binary": "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Using Firefox as webdriver
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55258/hub/session/0bc83a0e-c34a-4c6e-b4c5-e2acf7710101/timeouts/implicit_wait {"ms": 15000.0, "sessionId": "0bc83a0e-c34a-4c6e-b4c5-e2acf7710101"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55258/hub/session/0bc83a0e-c34a-4c6e-b4c5-e2acf7710101/url {"sessionId": "0bc83a0e-c34a-4c6e-b4c5-e2acf7710101", "url": "https://magento.com/"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55258/hub/session/0bc83a0e-c34a-4c6e-b4c5-e2acf7710101/window/current/maximize {"sessionId": "0bc83a0e-c34a-4c6e-b4c5-e2acf7710101", "windowHandle": "current"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:55258/hub/session/0bc83a0e-c34a-4c6e-b4c5-e2acf7710101/title {"sessionId": "0bc83a0e-c34a-4c6e-b4c5-e2acf7710101"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:driver navigated to: eCommerce Software & eCommerce Platform Solutions | Magento
+INFO:root:Calling tear down procedure for this test
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:55258/hub/session/0bc83a0e-c34a-4c6e-b4c5-e2acf7710101/window {"sessionId": "0bc83a0e-c34a-4c6e-b4c5-e2acf7710101"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:55258/hub/session/0bc83a0e-c34a-4c6e-b4c5-e2acf7710101 {"sessionId": "0bc83a0e-c34a-4c6e-b4c5-e2acf7710101"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Closing driver
+INFO:root:Starting Test 
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55328/hub/session {"desiredCapabilities": {"binary": "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe", "args": [], "firefox_profile": "UEsDBBQAAAAIANmjzEiOSSDsaAQAAP0PAAAHAAAAdXNlci5qc51XyW7kNhC9B8g/BH1KgDRjxxkgmEEOHdsDBDDiYHqMuRggKLLUopsiGS69/P0UtbjVcmuZuUkUi6zl1aun6MFR6yD/eeGBRyfDkeRSAT4R4+RGamqNkvy4+PWnm18+/PhD7BgE5kK0pDAlWLYBugfF8ZlGpwgTQgZpNFNouWCZieF9ppjeLvqntNfumdMUdAAn9QbPYlu0zJny0LPInNnjGxFmr5VhguRGCXAP0ge0+L23ew+ZcHKH78z7mLzTwUUfQFCJC+DQBhf6l3TMOAcbOmYcXPCXrVrXAst8FdCjfrSgpwKR3ip2BHF/fbX+1wTJAS3+6O02ea6khiWz1hOmlNnT7EgF5CyqMO7O/dPDityQOhIQlzfDIYD2WDJPMmX4VmE+CWiWqcriUgACdsEY5Qk4ZxxHU6OgY3PhljHQTCDlhe2Y507aMH5FG3UByoJbpXRpwEqu/JZ4toPP5k76bXWZtYhtlnD6m+EBwtIHB6z8wAvmPIS/nj5/XP7Z9yOFvJWBBFBQQnBHYp0pm8T24fcKb+5t4/ZAMgcaoVoG4gust9F8yFpD2Bu3JUUIlthC+uK4TJ8ton6pQG9Ckbx7965fQlMSB9a4QBFT9MVTOCSUJBwMVPDMz52EfXKzlAcQk162pemjYKLyrVnTAgOHt3VpUlEyjSdX3dVkfRz00QoWYALxrSca9tjjyfWpFmEYapVfzBKpuZSkxXXMSiQgvPr+Gw4ogKlQ1O8EN+2QK5CwnQ+f4hTNYOq2xCAdUfQei4b8eQGwb9E9ESACqGQHWncmdVHTIMuU7pur3lZstzbLLAYzcGBn17ek9iwzymw2abGhpPEMn7UOhrJEKw28aoElMsgy5bmaE9f9iE6jqCR1RomIpZ3HTx6Y40UT64BvHXy2MY3T6/A0nd2c1bQwGLGTYqBtzq9RwHYnqppqfZZD9ZxiKZnCE+Y2HVKzSMmGgNUB8THBfoXV50PdXfOyT+OYlkYwNXFRJ9u8AL69RXOcDplUKVYtN0VQxwkU1bSzbKc1Ml2Ifvq+1BB3NVOtOTapvwS3NxINx5XkgfaV2lgScUk86i8VWP31FZGoa8zTp4fvk2nzSo6TWNUZvavlyt/1l9mElRLlai3Z56vXzdhEDtlnosQnXVfvoxoLvAOKAkEPqboRook2KdBxfhkaerTtMVL6YKqxtpAbbTCfvRMOVmq0xiTuC4nEnJSZg/+jdNOXgsp9tLWztcSa1jMOXqoOm+CvbiePZ/0cPT6NvkAxpjH0jHHMJJfNGLv/VYurkyae9a8hZELt4u798zNCKXVtWenH52cHHpHth7RL55fgVhk/2TNQOYnAwGjT0SiRc6Qzyh3zxVDKEnw0bi+hzMCtq9ch8hnRcQMWJximi5DX0K/ZOGzA36i9PrN1tL2pxWdV4n/0bT3Bx5H4Wp1W8yXbLwXodboVw/p+bTVP/PDCpX+YGRooWTSKlFbUJmJFpMn9WZqTTP8ovRW1Gn8q8+NTj3K/AlBLAQIUABQAAAAIANmjzEiOSSDsaAQAAP0PAAAHAAAAAAAAAAAAAAC2gQAAAAB1c2VyLmpzUEsFBgAAAAABAAEANQAAAI0EAAAAAA==", "platform": "ANY"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Using Firefox as webdriver
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55328/hub/session/80941f1f-f6e8-4716-a86b-89f7b171397e/timeouts/implicit_wait {"sessionId": "80941f1f-f6e8-4716-a86b-89f7b171397e", "ms": 15000.0}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55328/hub/session/80941f1f-f6e8-4716-a86b-89f7b171397e/url {"sessionId": "80941f1f-f6e8-4716-a86b-89f7b171397e", "url": "https://magento.com/"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55328/hub/session/80941f1f-f6e8-4716-a86b-89f7b171397e/window/current/maximize {"windowHandle": "current", "sessionId": "80941f1f-f6e8-4716-a86b-89f7b171397e"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:55328/hub/session/80941f1f-f6e8-4716-a86b-89f7b171397e/title {"sessionId": "80941f1f-f6e8-4716-a86b-89f7b171397e"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:driver navigated to: eCommerce Software & eCommerce Platform Solutions | Magento
+INFO:root:Calling tear down procedure for this test
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:55328/hub/session/80941f1f-f6e8-4716-a86b-89f7b171397e/window {"sessionId": "80941f1f-f6e8-4716-a86b-89f7b171397e"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:55328/hub/session/80941f1f-f6e8-4716-a86b-89f7b171397e {"sessionId": "80941f1f-f6e8-4716-a86b-89f7b171397e"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Closing driver
+INFO:root:Starting Test 
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55387/hub/session {"desiredCapabilities": {"binary": "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe", "args": [], "browserName": "firefox", "version": "", "firefox_profile": "UEsDBBQAAAAIAACkzEjXQuNuZwQAAP0PAAAHAAAAdXNlci5qc51XTW/cNhC9F+h/KPbUAl3WjhugSJCDaztAAaMu4hi5GCAocrSilyJZDrXy/vsOqZU/5NVHc5O0nCH55s17sw1C4D5A+fOqCK6lN+bK0mgLq19/KoVB+OXjjz80b1dZaKMovNgAAysKA2pRAGuCoYUrUbgmfiiMsNvVIACjCLHxrHI1pPy8BSPpmc+H9ntd3V2fszMmpAQf88liaIYHsxBbF7asitGzWjyupbMWZNTO4tpDWNPSHQQKPj0ZhB4gWgvvkQljXMuLPVdQisbE47v1R1OutcYJxUpnFIRrjSng3WC1gl10ziCDEFygg6EzL4E+sgE8RrCYDs8ar0QEZl3U5f4O8x2mSpPhcnTXoBUcz65cnTDiKIP2kYfG8qjrtPhsCA7tLQJ4F6K2G+ad0XLP0sfbpqg1piP+kz+eP5fn2OkQZBN03LNWBMsNiB3l4/krMKwIc2flGE2fgiX6A24zIPS0S5SjpcNbTZ1mJLMPrvYRGdGe104JM9MpCWOlMS3hzoPlinakTRJdxkLmsb5a1J1vmq6nA6sxuqwGK72xji470ka1sBS37luDEsYGZ3Z9aoYuOOSyfqvA3qbj0JVm4glZzAW5sTcE2BwXSm2AnuiyQcvIXdAbbXmH2iIS7jS0qSK1fgS1nIM5FmyEXM4WxHYkooVCBU3I8066eGOpF5F6hEsIEaelBcGU2PjEhl5mh8V6zZcKhIlV986M22zSx4PYTNOGhK9XGdFEN7IqSdhWRxbBQA0x7Gca4MX1EZuk+E/XJy43Wcem7l+BMUxWILeXnRT/2f3y/+szW9u3arvMBVGUkJ8T1DNyMF6r5ExaAhE6YPzSjBH/0WtLfUigIPUu9WMAZAH+bXQYV90J92VCKZ38USw14mG2mbDnA7eVJtaQOc6dt+fYQYZ6ITno6HHCPIid6Ixs2lL7WwQQKuWESOMBqM8J9XMqixzb4I2+KZ1IuLr8cH9PJE8tU4sE5P09lYSIim8a9eC3sgoJ/AW2+6wCWfZJtckmU3YKLykJl0FgtbhTO/PKyAyHk34n0vkty0aVuiF0rBguHmmySeN8HYPJyiInZiyPeSXU8y3ca98iNqTSUHKqLVNN7ZcFIYggq4NWLC5CgIfMuOnchlIGosb360njE0uXTQrPVaeJvsPhWNnTsGDpAjXUBYTb/Do3DpB+09x9noZqC2QD50hCLHbw1V1q3Gbt8J7MOrfOb46QiTRnUHfWH2UlAkL8dPf18/qPsRElT/q+0ljt1+lnTzazNmA3MfXFu/fvx11uGtoXVCqMk9ssXMsMgT6pG/st44inJ0yT5bm7L9czSvlsld02nOSdXjnBZsfmhMlWnHW8RPuOLpwEmj8gdX2aUXRX12mZdd26vMlf9qIbMWY65qVT1sLQoZea7Iux8MI4HL3RvMEuLnuS9MvOc24ldQce+9v4pCAavRF7UFenJ7d/07+0DPrv49nzTHNBgkxFLrRJNbR6U0UzO7b2I+9w1j1LAf8BUEsBAhQAFAAAAAgAAKTMSNdC425nBAAA/Q8AAAcAAAAAAAAAAAAAALaBAAAAAHVzZXIuanNQSwUGAAAAAAEAAQA1AAAAjAQAAAAA", "javascriptEnabled": true, "platform": "ANY"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Using Firefox as webdriver
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55387/hub/session/d0192ff7-ada7-4ec3-b221-b99f761b90c8/timeouts/implicit_wait {"ms": 15000.0, "sessionId": "d0192ff7-ada7-4ec3-b221-b99f761b90c8"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55387/hub/session/d0192ff7-ada7-4ec3-b221-b99f761b90c8/url {"url": "https://magento.com/", "sessionId": "d0192ff7-ada7-4ec3-b221-b99f761b90c8"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55387/hub/session/d0192ff7-ada7-4ec3-b221-b99f761b90c8/window/current/maximize {"windowHandle": "current", "sessionId": "d0192ff7-ada7-4ec3-b221-b99f761b90c8"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:55387/hub/session/d0192ff7-ada7-4ec3-b221-b99f761b90c8/title {"sessionId": "d0192ff7-ada7-4ec3-b221-b99f761b90c8"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:driver navigated to: eCommerce Software & eCommerce Platform Solutions | Magento
+INFO:root:Starting Test 
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55566/hub/session {"desiredCapabilities": {"browserName": "firefox", "version": "", "marionette": false, "binary": "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe", "args": [], "firefox_profile": "UEsDBBQAAAAIADSkzEitIg5vYgQAAP0PAAAHAAAAdXNlci5qc5VX227jNhB9L9B/KPLUAjU3abpAsYs+eJMsUCBois0G+xKAoMiRxZgiWV4s++93SFmJbxK9b5bM4VzOnDOj6MFR66D+9cIDj06GDemY0xR0ACf1gnbAlhe//1Iz5eG3jz//FN8shGlJy9aUN860QD130gbqoqZBtoBG15cHFrAOoL002pNoBQtAQLNKgRjxsLZS+8CUIl4uNAvRgScO/o/Sjdrs+GAxmFvpk4dHbix4NLk6jAnDYA6scQHTJQ0wFZr+meChleRAaul8+BL1WB3Gb4hWGSbuJpPcCZg3wJc3prUsyEqqhIaWiyaozQQEvSuKVaIvnsKagw3pNjQJLh5aVM50+ESE6XSKDRHUbIEvfGO6bw3oR0wmJTLicbD3DSAsOeBbqFlU4VP/z4jdSHvl1zBiE4xRSxlIAAUtBLcptMsQmwMmUooQgAcQnxN8c0yKK5guioYusMpiPQqezmia6QuG1DSEzrjlAILou/V0lAns7QGK3aypiLmGCcZCRV7RFjIBdHH74fm5gyoRpGWpW56fkVoIor+YxE0BWxVhezWppQL8RYyTC6mpNUry1MnXYz2VWi9akgDAY4dMHY7hK/Ggv0mNWfmrSyJ1cObpy31KjFUmhg+VYnp5mMkgV2fo1FHZaqOwo+6lD3j8j5HT2Do+l+lB3yjjz+9qi/ppQ+6Vw7tf2Ir1ARPT0zoT9R99gz/NWKcc66w2Qdabp3F+ClilwDwB54zj/e07TTzBGs9qyL8TF1qmsATnC3vXSCwEFvYHdL1Shi+zzbQXZu15c+YEgg9IsMJpJfWSZCKibnS5HU8guE8gH6tWBorZTzHo2EPK3mmmTjjY16KeZCS9fEy+fCrZ9ACamPy52ajRfCzSHVSUWSxSBJM9c0aw/+WXc57mWBGxQTIa3ECSbFCzwgaWAkjrg9Ep7AtcHQyWukhDBy95XpyOfL9KKwldKlIr1yCKVTqKsgPF084UnSqo1pQpYULIJAqsdAtqvXASS0NZriuNqJnRY7KUgwuFXQFHvQU3t9bjvMJL5h4bg63ga9qultm1tQhaniTvDNYwzHzAKdx+5A1zHsLfT18/z/6ani17JR0p5HZckiYEHBON9M1mlv62zPuZAr0ITWLI+/cjmZi6Rk6NwdTrsE8yQFsjmDpTNvYEcNpkR88nebKXKE6tGSqyxu5MTJshGLO0ZmQxP1po37DuPVBcnPGRInK6hHS/AJFyW04sQIMObGdIQXsSOTVSr4W2AveYH32h3ndP93MyEP10QjvSn5acH1SRQvKv64H0VrENiLury8d/ccJmAfiztA4hNSQP9HArKmZ8TdibKE6u9i3pxxERsbXnDXGFpXK4ExX6d3KNL+rga70hKz0qNBqlxRP1rEbyUe6Yb0aMdzTMZ4s3DcPBETMZirq9v8AWAx5o2O/ns618oLjht2ipSz2o2kfbfwf2hDpspOE+lqQVtyEMptpQ0X9PFdLhfkC2GAdzvNmyYffsd1BLAQIUABQAAAAIADSkzEitIg5vYgQAAP0PAAAHAAAAAAAAAAAAAAC2gQAAAAB1c2VyLmpzUEsFBgAAAAABAAEANQAAAIcEAAAAAA==", "javascriptEnabled": true, "platform": "ANY"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Using Firefox as webdriver
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55566/hub/session/71d29421-b99a-42e0-aff7-05b4408be1ca/timeouts/implicit_wait {"sessionId": "71d29421-b99a-42e0-aff7-05b4408be1ca", "ms": 15000.0}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55566/hub/session/71d29421-b99a-42e0-aff7-05b4408be1ca/url {"sessionId": "71d29421-b99a-42e0-aff7-05b4408be1ca", "url": "https://magento.com/"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55566/hub/session/71d29421-b99a-42e0-aff7-05b4408be1ca/window/current/maximize {"sessionId": "71d29421-b99a-42e0-aff7-05b4408be1ca", "windowHandle": "current"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:55566/hub/session/71d29421-b99a-42e0-aff7-05b4408be1ca/title {"sessionId": "71d29421-b99a-42e0-aff7-05b4408be1ca"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:driver navigated to: eCommerce Software & eCommerce Platform Solutions | Magento
+INFO:root:Starting Test 
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55631/hub/session {"desiredCapabilities": {"args": [], "firefox_profile": "UEsDBBQAAAAIAEqkzEiY4HbKZAQAAP0PAAAHAAAAdXNlci5qc5VXTW/jNhC9F+h/KHxqgZpNul2g2MUe3CQLFAiaYr3BXgIQFDWyGFMkSw7t+N93SFm241gfe7NkksN5896bUQzgufNQ/TwrvN3SE4sBygfzTZmSnq+vmDLo7eOX+9mvP81EYSN+KLQw69kvH3/8IR63lwKFB2c9KrNiNQiNdfvMotNWlHdGFBpKOqYSOsDZ9henTEChNdvWCkGrgMzDf1H53i3wgmCCsiYwbVerFBYOMdDH8/VdglogeB/NyepLxx+WK7Nm1oHhKaA3QtOG33sWUwoeo2NOrICWXQ2C5KxWcsfSy2UsGhVSMsMwdXGoNiaByhphKBQFru32Ww1mmS5Ah/fsDyCjV7hjW+ENDykqckI+vYbRmA3bZlqwMjZuGOwBOtCijZLAKuUDfolm0lU3Cij2ijfqBcqcLbdG9l05XbURL1zW3jbAg/TKIaeac1RN2vTuvDKHAoKuQnQtb30q9eyc6baqiBMwF84FRoylqxQ7XkIlosbLaKC1eq2QEbGhAfQ75uhiDjN651zqOFTT1ROP+Ba0TGnQfZgoS4VEk8zCIT0eEhIV5N+v9XEJNUqItEqVAyYi2gFs20pySp4/B9KFBJcuFYaFd57YxAyOAjSwbQl4AbUBwnXuIOmGVsM0hYUayIxkDXJ925b2r/afcfCGUe64OYGUz2Ij2mXTnM2DKJNQAUEStz4ngS0IEKmhR6WwSdQMjAzR+j0+02LtVTBJvGDIOJN6tyDWo+LdQlF6taFnEUJMvKcOFAMlxMkiY67AhYsdQsrQeVNPAAO4tX7NakRy6lqFejdPfzuKN9dgVlgngr1/399wCm3lOjep8WKXKqQlPFO4jBmI5N1TLb6ymqp6T8Eu0P6ts0zrasRuB36RLMwAYb0IVBixga/2VoV1VqZz1J5E0vVvluiE84BEsOajrIUPgJ8ev36e/zk8BlzscP/mlwuZTGNKc88avCG7pLsUSqcSG7WqUe9GciS7QFF0Nj7FKyFfMKD1QGLK5KvIqLn0ItQjbGo78bzrDmR2GMOYPCqlgX4x6xVZFG/xSlZwtqFtF4FRPryxpdATy3wgUamSbGa3H56eSF/J3ptc2qenlKfGcI7JW2J5eM62cll+r0RF/jYnNzG0PuE5J6rNU9vP2r0+t7ku1P6IbqTZ62ZE7R2CRE4lkZ8DOW5OGsQmSbKdgUbdqcfZJu7u6nL3eL9g75g4imDAagkIp8UOyrvrq+U/lvw8Hf/H0NGWoPaq7AHvRFyJCbct0EtJDhUuFWhgFBvroqfTRyM0HTDWH4eqM24Wk1rwscO067ghLWyAkxEa7BlihqayEXsZpExf4xifn4dzPH5QBbWi/ChUGPui6qpGLhPyZR/MAzWtvkLRudbQmQ00BfhlfuxzvL4ZkHdMZQ3Zbp4nZukgAqbXpIWX9b7Q0xO50TZMmDiyIE8mDgm+jxFvWWdIm9XusX9IfN2ZUv7fJYZXc1TPjpOZ0bZDeTalv81NO92d5PI/UEsBAhQAFAAAAAgASqTMSJjgdspkBAAA/Q8AAAcAAAAAAAAAAAAAALaBAAAAAHVzZXIuanNQSwUGAAAAAAEAAQA1AAAAiQQAAAAA", "binary": "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe", "version": "", "platform": "ANY", "marionette": false, "javascriptEnabled": true}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Using Firefox as webdriver
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55631/hub/session/0c065510-ff57-4689-9cfb-51761b303bb4/timeouts/implicit_wait {"ms": 15000.0, "sessionId": "0c065510-ff57-4689-9cfb-51761b303bb4"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55631/hub/session/0c065510-ff57-4689-9cfb-51761b303bb4/url {"sessionId": "0c065510-ff57-4689-9cfb-51761b303bb4", "url": "https://magento.com/"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55631/hub/session/0c065510-ff57-4689-9cfb-51761b303bb4/window/current/maximize {"sessionId": "0c065510-ff57-4689-9cfb-51761b303bb4", "windowHandle": "current"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:55631/hub/session/0c065510-ff57-4689-9cfb-51761b303bb4/title {"sessionId": "0c065510-ff57-4689-9cfb-51761b303bb4"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:driver navigated to: eCommerce Software & eCommerce Platform Solutions | Magento
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55631/hub/session/0c065510-ff57-4689-9cfb-51761b303bb4/element {"using": "xpath", "sessionId": "0c065510-ff57-4689-9cfb-51761b303bb4", "value": ".//*[@class='fa fa-search']"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55631/hub/session/0c065510-ff57-4689-9cfb-51761b303bb4/element/{8655c865-a1f1-4562-90f7-ae4f9eac03ec}/click {"id": "{8655c865-a1f1-4562-90f7-ae4f9eac03ec}", "sessionId": "0c065510-ff57-4689-9cfb-51761b303bb4"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Calling tear down procedure for this test
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:55631/hub/session/0c065510-ff57-4689-9cfb-51761b303bb4/window {"sessionId": "0c065510-ff57-4689-9cfb-51761b303bb4"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:55631/hub/session/0c065510-ff57-4689-9cfb-51761b303bb4 {"sessionId": "0c065510-ff57-4689-9cfb-51761b303bb4"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Closing driver
+INFO:root:Starting Test 
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55761/hub/session {"desiredCapabilities": {"args": [], "binary": "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe", "version": "", "marionette": false, "firefox_profile": "UEsDBBQAAAAIAPukzEiReD4ObAQAAP0PAAAHAAAAdXNlci5qc51XTW/jNhC9F+h/KHxqgZqbbLpAsYs9uEkWKBA0xXqDvQQgKGpkMaZIlh9W/O93SFm245iSmpslc8jhvDfvjYIDS42F6tcZPHtQTmjlSDAl80CU9qLaPuCS2e+/VEw6+O3Tzz+FQ0hhdYtPpNQNaYUqdUvK0BgCihUSSozyNpwGtVCUVmzwmTkXGqBB4SrnoaQCX6TDzoT1Z0mh1kQbUDQmbBWTuP79yWIHPFjht6RlFhcqXCjUirbA1pmrxCtYMNp6yqSkTw6352B8rMf5hJ7YhjluhfHD9y1h47WWjoC12nLcT0sYDtnXVTgj2RbK28uL5T+IBgcM+COLQqukZiWGxRrObj4+PmKxWfC6YfEij48WXJDezTI7WGBl3Ag8cMTji7DOLyweK2EqKArajglnUNFVhQthzoxxBKusW1psaQkVw6SGD3CeWR8MqXUDhq1iOjNW6OA/FpKp9emFFPhW2zVpmMLF8/5g3MUHN8CAhj3TDlNqg6JeNPGkq4s8hXkkyRGFOVifIUx/l9uHuwXRGG1FOVJXrKZnRbzwEWHOJs+wQIm+yHNSA5O+7p4JLtogcUY2eNkxGwFtbJhGPGcj9tCAS6rhtQUSCYYtXVndUG6ZqzPBR2IT+XkjXExuyZFDsXqXpxXfH8YqSL/jNRsmMduxm/WhNUgDdhG5pwCrv3Br3G4D3+Lp60QoY6TgqVXeaWwAj4TBlmg+8ZpZB/7zw7cv8z9PuTZQOeJq5LhWqW3Hq+5C0QhPhUqvczGHujPL651WZ9YaxMF4R5BEtNElkyO1ikK1Fp54kNCAt1sE9ClpwXmeHsEo9WoVQRkUNqxwby7DifQNXHtviKmFq7fz+LdBz5hLUCsfmfX+w4fBPjAa8dyS+HIZa5uIevvWRupvuJPw4X16lLDyLqF7r66ldjmgJvRvFdX4a1CTdjh783/Ty0WSrGzizwb551GdiRMrhXqJLY0s+C8Im405ogGvga+vkXXYRoWQkdtKrGovt5NaYG/Vgy2wj+GuHzYyK49MWndmnnryb3Xdgfj/XIf2qk0alDuVXAiLhMJ3Kgq9mfAaOxCmeMoLd7gi7IDSUILHcjhNBo8IeY+GPSYyuwrsPPc06XjNstNumuy/DAm9OIaMc6WQmq+lcH5i6vsBp7N1m6D8XoNaxizx3Ez8wa67cyjSGh8puoDKmfULAUIk59j1CpUwJj5HH5nHtkyzatarOvMmwcqRaeVIFaMZjlQBX5X36nsastzlBRE4e+iHr3cjh7yW9s4cUtVfzc+R1QrbvoGmALtMj7nBqU9sN2VN6nMJbHNo81GfPHierFwwSRd3dc3acSUk4C+ksBXcU20FqjfthPEtWjQ5yT1NKy1xnL5Dgp8pcY/Hjmg9pXfddJ6UrzF881QYTExx2MOGIBupgUQyW5S7sanzVGBbkDwKJoJLWFmK2G9srH9eQX6K9dX0z8PxkW0g5ZE8D9ba1gIxjMo34qx74uP0Kjtzvem+l/7q/hlX2fy89QNQSwECFAAUAAAACAD7pMxIkXg+DmwEAAD9DwAABwAAAAAAAAAAAAAAtoEAAAAAdXNlci5qc1BLBQYAAAAAAQABADUAAACRBAAAAAA=", "platform": "ANY"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Using Firefox as webdriver
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55761/hub/session/b6ccb657-8364-4910-bea6-3b790c542050/timeouts/implicit_wait {"ms": 15000.0, "sessionId": "b6ccb657-8364-4910-bea6-3b790c542050"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55761/hub/session/b6ccb657-8364-4910-bea6-3b790c542050/url {"sessionId": "b6ccb657-8364-4910-bea6-3b790c542050", "url": "https://magento.com/"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55761/hub/session/b6ccb657-8364-4910-bea6-3b790c542050/window/current/maximize {"sessionId": "b6ccb657-8364-4910-bea6-3b790c542050", "windowHandle": "current"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:55761/hub/session/b6ccb657-8364-4910-bea6-3b790c542050/title {"sessionId": "b6ccb657-8364-4910-bea6-3b790c542050"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:driver navigated to: eCommerce Software & eCommerce Platform Solutions | Magento
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55761/hub/session/b6ccb657-8364-4910-bea6-3b790c542050/element {"using": "xpath", "value": ".//*[@class='fa fa-search']", "sessionId": "b6ccb657-8364-4910-bea6-3b790c542050"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55761/hub/session/b6ccb657-8364-4910-bea6-3b790c542050/element/{6cdaf5ac-4624-4eee-b37e-cc59796314e0}/click {"id": "{6cdaf5ac-4624-4eee-b37e-cc59796314e0}", "sessionId": "b6ccb657-8364-4910-bea6-3b790c542050"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55761/hub/session/b6ccb657-8364-4910-bea6-3b790c542050/element {"using": "xpath", "value": ".//*[contains(@placeholder, 'Search')]", "sessionId": "b6ccb657-8364-4910-bea6-3b790c542050"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55761/hub/session/b6ccb657-8364-4910-bea6-3b790c542050/element/{b7cead8e-4e6e-4ebb-9a44-bb55b48d3f93}/clear {"id": "{b7cead8e-4e6e-4ebb-9a44-bb55b48d3f93}", "sessionId": "b6ccb657-8364-4910-bea6-3b790c542050"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:55761/hub/session/b6ccb657-8364-4910-bea6-3b790c542050/element/{b7cead8e-4e6e-4ebb-9a44-bb55b48d3f93}/value {"id": "{b7cead8e-4e6e-4ebb-9a44-bb55b48d3f93}", "value": ["p", "h", "o", "n", "e", "s"], "sessionId": "b6ccb657-8364-4910-bea6-3b790c542050"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Calling tear down procedure for this test
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:55761/hub/session/b6ccb657-8364-4910-bea6-3b790c542050/window {"sessionId": "b6ccb657-8364-4910-bea6-3b790c542050"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:55761/hub/session/b6ccb657-8364-4910-bea6-3b790c542050 {"sessionId": "b6ccb657-8364-4910-bea6-3b790c542050"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:Closing driver
+INFO:root:Starting Test 
+INFO:root:Starting Test 
+INFO:root:Starting Test 
+INFO:root:Starting Test 
+INFO:root:Starting Test 
+INFO:root:Starting Test 
+INFO:root:Starting Test 
