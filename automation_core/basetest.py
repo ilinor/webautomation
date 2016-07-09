@@ -6,6 +6,7 @@ import time
 import logging, os
 from selenium import webdriver
 from automation_core.confparser import ConfigParser
+from ddt import ddt, data, unpack
 
 
 class BaseTestClass(unittest.TestCase):
@@ -24,6 +25,16 @@ class BaseTestClass(unittest.TestCase):
     driver_path_chrome = os.path.abspath(
         os.path.join(os.path.dirname(__file__), '..', 'drivers\chromedriver.exe')
     )
+    if dataset.csv_resource is not None:
+        resource_file_path = os.path.abspath(
+            os.path.join(os.path.dirname(__file__), '..', 'resources/' +
+                         dataset.csv_resource)
+        )
+    elif dataset.excell_resource is not None:
+        resource_file_path = os.path.abspath(
+            os.path.join(os.path.dirname(__file__), '..', 'resources/' +
+                         dataset.excell_resource)
+        )
 
     def setUp(self):
 
@@ -75,6 +86,8 @@ class BaseTestClass(unittest.TestCase):
         self.file_name = file_screen + "\\" + self.test_name + \
                          self.time_mark + ".png"
         self.driver.save_screenshot(self.file_name)
+
+    
 
     def verify_response(self, ethalon: str, returned_value: str)-> bool:
         """

@@ -30,6 +30,8 @@ class ConfigParser(object):
     log_filename = ''
     downloads_path = ''
     webdriver_wait = ''
+    csv_resource=''
+    excell_resource=''
 
     def __init__(self):
         self.load_config()
@@ -66,3 +68,7 @@ class ConfigParser(object):
         self.imap_port = config_data["email_config"]["imap_port"]
         self.smtp_server = config_data["email_config"]["smtp_server"]
         self.smtp_port = config_data["email_config"]["smtp_port"]
+
+        #collect resource files
+        self.csv_resource = config_data["csv_resource"]
+        self.excell_resource = config_data["excell_resource"]

@@ -6,3 +6,5 @@ email_config: {imap_SSL: true, imap_port: imap_port, imap_server: your_mail_Serv
 logger: {log_filename: /webautomation.log, logging_level: DEBUG}
 url: {test_app_url: 'https://magento.com/'}
 browser_settings: {downloads_path: '%UserProfile%\Downloads\webauto'}
+csv_resource: 'data.csv'
+excell_resource: 'data.xslx'
