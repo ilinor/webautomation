@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # -*- coding: utf-8 -*-
+import csv
 import unittest
 import datetime
 import time
@@ -35,6 +36,8 @@ class BaseTestClass(unittest.TestCase):
             os.path.join(os.path.dirname(__file__), '..', 'resources/' +
                          dataset.excell_resource)
         )
+    else:
+        logging.error("No resource file found")
 
     def setUp(self):
 
@@ -78,6 +81,29 @@ class BaseTestClass(unittest.TestCase):
         self.driver.get(self.dataset.test_app_url)
         self.driver.maximize_window()
         logging.debug("driver navigated to: %s" % self.driver.title)
+
+    def get_data(file_name):
+        # empty row list
+        rows = []
+
+        # open csv file
+        data_file = open(file_name, "rt")
+
+        # check file type before processing
+        ext = os.path.splitext(file_name)[1][1:]
+        if ext == 'csv':
+            # csv reader
+            reader = csv.reader(data_file)
+        elif ext == 'xlsx' or ext == 'xls':
+            # add excell reader
+            pass
+        else:
+            logging.error('Resource file extension unsupported')
+
+
+        for row in reader:
+            rows.append(row)
+        return rows
 
     def take_screenshot(self):
         logging.info("Taking screenshot")
