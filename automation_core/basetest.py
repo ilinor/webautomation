@@ -5,6 +5,7 @@ import unittest
 import datetime
 import time
 import logging, os
+import xlrd
 from selenium import webdriver
 from automation_core.confparser import ConfigParser
 from ddt import ddt, data, unpack
@@ -95,8 +96,16 @@ class BaseTestClass(unittest.TestCase):
             # csv reader
             reader = csv.reader(data_file)
         elif ext == 'xlsx' or ext == 'xls':
-            # add excell reader
-            pass
+            
+			# open the specified Excel spreadsheet as workbook
+            book = xlrd.open_workbook(file_name)
+            
+			# get the first sheet
+            sheet = book.sheet_by_index(0)
+            
+			# iterate through the sheet and get data from rows in list
+            for row_idx in range(1, sheet.nrows):
+                rows.append(list(sheet.row_values(row_idx, 0, sheet.ncols)))
         else:
             logging.error('Resource file extension unsupported')
 
