@@ -8,7 +8,7 @@ from selenium import webdriver
 from automation_core.confparser import ConfigParser
 from ddt import ddt, data, unpack
 
-
+@ddt
 class BaseTestClass(unittest.TestCase):
     """This is a base test case class"""
 
@@ -87,7 +87,11 @@ class BaseTestClass(unittest.TestCase):
                          self.time_mark + ".png"
         self.driver.save_screenshot(self.file_name)
 
-    
+    # dodaj metodu load_data
+    @data(*get_data(resource_file_path))
+    @unpack
+    def load_data(self):
+        pass
 
     def verify_response(self, ethalon: str, returned_value: str)-> bool:
         """
