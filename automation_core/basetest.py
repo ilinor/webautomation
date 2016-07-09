@@ -95,23 +95,25 @@ class BaseTestClass(unittest.TestCase):
         if ext == 'csv':
             # csv reader
             reader = csv.reader(data_file)
+
+            for row in reader:
+                rows.append(row)
+
         elif ext == 'xlsx' or ext == 'xls':
-            
-			# open the specified Excel spreadsheet as workbook
+            # open the specified Excel spreadsheet as workbook
             book = xlrd.open_workbook(file_name)
-            
-			# get the first sheet
+
+            # get the first sheet
             sheet = book.sheet_by_index(0)
-            
-			# iterate through the sheet and get data from rows in list
+
+            # iterate through the sheet and get data from rows in list
             for row_idx in range(1, sheet.nrows):
                 rows.append(list(sheet.row_values(row_idx, 0, sheet.ncols)))
         else:
             logging.error('Resource file extension unsupported')
 
 
-        for row in reader:
-            rows.append(row)
+
         return rows
 
     def take_screenshot(self):
