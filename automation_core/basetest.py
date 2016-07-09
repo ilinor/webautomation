@@ -21,6 +21,9 @@ class BaseTestClass(unittest.TestCase):
     time_mark = datetime.datetime.fromtimestamp(time.time()).strftime(
         '%d%m%Y_%H%M%S')
     driver = None
+    driver_path_chrome = os.path.abspath(
+        os.path.join(os.path.dirname(__file__), '..', 'drivers\chromedriver.exe')
+    )
 
     def setUp(self):
 
@@ -47,13 +50,11 @@ class BaseTestClass(unittest.TestCase):
                               "application/vnd.ms-excel")
             fp.set_preference("browser.helperApps.neverAsk.saveToDisk",
                               "application/octet-stream;charset=UTF-8")
-            fp.set_preference("browser.update.auto", "false")
-            fp.set_preference("browser.update.enable", "false")
 
             self.driver = webdriver.Firefox(firefox_profile=fp)
 
         elif self.selected_driver == "Chrome":
-            self.driver = webdriver.Chrome()
+            self.driver = webdriver.Chrome(self.driver_path_chrome)
 
         elif self.selected_driver == "Ie" or self.selected_driver == "IE":
             self.driver = webdriver.Ie

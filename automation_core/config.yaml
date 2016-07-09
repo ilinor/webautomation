@@ -1,4 +1,4 @@
-driver: {selected_driver: Firefox}
+driver: {selected_driver: Chrome}
 webdriver_wait: 15
 email_config: {imap_SSL: true, imap_port: imap_port, imap_server: your_mail_Server,
   reporting_email: email_to_receive_report,
