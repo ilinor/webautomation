@@ -38,7 +38,7 @@ class BasePage:
             if by == "class":
                 return self.driver.find_element(By.CLASS_NAME, element_path)
             if by == "css":
-                return self.driver.find_element(By.CLASS_NAME, element_path)
+                return self.driver.find_element(By.CSS_SELECTOR, element_path)
 
         except (exceptions.WebDriverException, AssertionError) as ex:
             self.take_screenshot()
